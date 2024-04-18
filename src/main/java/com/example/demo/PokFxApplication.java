@@ -9,5 +9,5 @@ public class PokFxApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PokFxApplication.class, args);
 	}
-
+ 
 }
