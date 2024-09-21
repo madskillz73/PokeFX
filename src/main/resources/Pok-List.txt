@@ -1,0 +1,8 @@
+//File for testing purposes
+//String name, int hP,Map<String, Set<String>> types, int pAt, int sAt
+Charmander,100,Fire,Fire,10,10
+Bulbasur,100,Plant,Plant,10,10
+Squirtle,100,Water,Water,10,10
+Pikachu,100,Electric,Electric,10,10
+Metapod,100,Bug,Bug,10,10
+Onix,100,Rock,Earth,10,10
