@@ -11,6 +11,10 @@ public class Pok {
 	
 	private String name;
 	
+	//Health Points
+	
+	private int hP;
+	
 	private Map<String, Set<String>> types;
 	
 	// Physical Attack
@@ -28,14 +32,15 @@ public class Pok {
 	
 	// Basic constructor, no status nor id needed
 	
-	public Pok(String name, Map<String, Set<String>> types, int pAt, int sAt, String status) {
+	public Pok(String name, int hP,Map<String, Set<String>> types, int pAt, int sAt, String status) {
 		super();
 		this.name = name;
+		this.hP = hP;
 		this.types = types;
 		this.pAt = pAt;
 		this.sAt = sAt;
 		this.status = status;
-		this.ko = true;
+		this.ko = false;
 	}
 	
 	//Empty constructor for testing
